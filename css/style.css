@@ -33,6 +33,12 @@ nav ul {
     width: 70%;
     margin: auto;
 }
+.centering {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
 /* Typo */
 body {
@@ -254,4 +260,71 @@ header li a {
 }
 .second-row-bus {
     margin: 120px 0px 210px 0px;
+}
+
+/* Dropbox business team */
+.title-team {
+    width: 50%;
+}
+.title-team a {
+    display: inline-block;
+    padding: 45px 0px;
+    color: #0061ff;
+}
+.small-col-team {
+    width: 15%;
+    float: left;
+}
+.big-col-team {
+    width: 40%;
+    float: left;
+}
+.small-col-team div {
+    width: 100%;
+    height: 200px;
+}
+.big-col-team div{
+    width: 100%;
+    height: 400px;
+}
+.back-big-col {
+    background-color: #f5f5f5;
+}
+.back-green {
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+.back-blue {
+    background-color: #0093ce;
+}
+.back-darkred {
+    background-color: #61082b;
+}
+.back-lightred {
+    background-color: #ff1c1c;
+}
+.back-red {
+    background-color: #d5001f;
+}
+.back-darkblue {
+    background-color: #0d2481;
+}
+.back-lightblue {
+    background-color: #b4d0e7;
+}
+.back-yellow {
+    background-color: #ffd830;
+}
+.back-green,
+.back-blue,
+.back-darkred,
+.back-lightred,
+.back-red,
+.back-darkblue,
+.back-lightblue,
+.back-yellow {
+    position: relative;
+}
+.small-col-team img {
+    width: 50%;
 }
