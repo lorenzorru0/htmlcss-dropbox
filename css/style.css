@@ -29,6 +29,10 @@ nav ul {
     width: 80%;
     margin: auto;
 }
+.small-container {
+    width: 70%;
+    margin: auto;
+}
 
 /* Typo */
 body {
@@ -37,6 +41,15 @@ body {
 h1 {
     font-size: 55px;
     padding-top: 100px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
 }
 
 /* Header */
@@ -48,6 +61,7 @@ header {
     position: fixed;
     top: 0;
     background-color: white;
+    z-index: 10;
 }
 .col-left, .col-right {
     width: 50%;
@@ -75,6 +89,7 @@ header li a {
 /* Hero */
 .hero {
     margin-top: 80px;
+    margin-bottom: 150px;
     background-color: #b4d0e7;
     font-size: 12px;
 }
@@ -104,4 +119,64 @@ header li a {
 }
 .hero-sec-left i {
     font-size: 35px;
+}
+
+/* Dropbox business section */
+.radio-invoice label {
+    margin-right: 20px;
+}
+.radio-invoice {
+    padding: 50px 0px 25px 0px;
+}
+.bus-col {
+    width: calc((100% - 100px) / 3);
+    float: left;
+    min-height: 1100px;
+    border: 1px solid black;
+}
+.bus-col-center {
+    margin: 0px 50px;
+}
+.bus-head {
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+}
+.bus-main {
+    padding: 40px 20px;
+    font-size: 12px;
+}
+.bus-main h4 {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.bus-main span {
+    display: inline-block;
+    color: #667583;
+    padding-bottom: 55px;
+}
+.bus-main div {
+    padding-bottom: 30px;
+}
+.bus-main .btn {
+    margin: 50px 0px 35px 0px;
+    width: 100%;
+    text-align: center;
+}
+.bus-link {
+    color: #0061ff;
+}
+.bus-underlined {
+    display: inline-block;
+    border-bottom: 1px solid #d0d0d3;
+}
+.bus-main ul {
+    list-style: none;
+}
+.bus-main li {
+    padding-bottom: 15px;
+}
+.bus-main li i {
+    font-size: 15px;
+    color: #176fff;
 }
