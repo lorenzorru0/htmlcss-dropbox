@@ -210,3 +210,30 @@ header li a {
     font-size: 12px;
     padding: 30px 0px 40px 0px;
 }
+
+/* Dropbox partner section */
+.part-sec {
+    margin-bottom: 100px;
+}
+.col-left-part {
+    width: 55%;
+    float: left;
+}
+.col-right-part {
+    width: 45%;
+    float: left;
+    padding: 40px 0px 0px 40px;
+}
+.col-left-part img{
+    width: 100%;
+}
+.col-right-part p {
+    line-height: 2;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.col-right-part .btn {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
