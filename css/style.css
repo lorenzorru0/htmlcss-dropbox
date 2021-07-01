@@ -25,10 +25,18 @@ nav ul {
     color: white;
     background-color: #0061ff;
 }
+.big-container {
+    width: 80%;
+    margin: auto;
+}
 
 /* Typo */
 body {
     font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-size: 55px;
+    padding-top: 100px;
 }
 
 /* Header */
@@ -39,6 +47,7 @@ header {
     font-size: 12px;
     position: fixed;
     top: 0;
+    background-color: white;
 }
 .col-left, .col-right {
     width: 50%;
@@ -59,4 +68,40 @@ header li a {
 }
 .col-left img {
     vertical-align: middle;
+}
+
+/* Main */
+
+/* Hero */
+.hero {
+    margin-top: 80px;
+    background-color: #b4d0e7;
+    font-size: 12px;
+}
+.hero-sec-left {
+    width: 30%;
+    float: left;
+}
+.hero-sec-right {
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.hero-sec-right img {
+    width: 100%;
+    margin-right: -20px;
+}
+.hero-sec {
+    position: relative;
+    top: 50px;
+}
+.hero-sec-left p{
+    padding-bottom: 30px;
+}
+.hero-sec-left > div {
+    font-size: 10px;
+    padding: 15px 0px 45px 0px;
+}
+.hero-sec-left i {
+    font-size: 35px;
 }
