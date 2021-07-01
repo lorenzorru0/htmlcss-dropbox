@@ -237,3 +237,18 @@ header li a {
     background-color: white;
     border: 1px solid black;
 }
+
+/* Dropbox business plus section */
+.bus-sec-plus h2 {
+    padding-bottom: 100px;
+}
+.col-bus-plus {
+    width: calc((100% - 100px) / 3);
+    float: left;
+}
+.col-bus-plus img {
+    width: 100%;
+}
+.col-bus-plus p {
+    padding-top: 40px;
+}
