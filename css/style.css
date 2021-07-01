@@ -37,6 +37,7 @@ nav ul {
 /* Typo */
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 h1 {
     font-size: 55px;
@@ -128,6 +129,9 @@ header li a {
 .radio-invoice {
     padding: 50px 0px 25px 0px;
 }
+.column {
+    margin-bottom: 55px;
+}
 .bus-col {
     width: calc((100% - 100px) / 3);
     float: left;
@@ -144,7 +148,6 @@ header li a {
 }
 .bus-main {
     padding: 40px 20px;
-    font-size: 12px;
 }
 .bus-main h4 {
     padding-top: 25px;
@@ -179,4 +182,31 @@ header li a {
 .bus-main li i {
     font-size: 15px;
     color: #176fff;
+}
+
+.enterprise {
+    width: 100%;
+    margin-bottom: 150px;
+    border: 1px solid black;
+}
+.ente-bottom {
+    padding: 30px;
+}
+.col-left-ente {
+    width: calc((100% / 3) * 2);
+    float: left;
+}
+.col-right-ente {
+    width: calc(100% / 3);
+    float: left;
+}
+.col-right-ente a {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+.col-left-ente h4 {
+    font-size: 12px;
+    padding: 30px 0px 40px 0px;
 }
