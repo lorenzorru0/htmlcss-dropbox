@@ -363,3 +363,25 @@ header li a {
 .back-big-col p {
     padding-top: 50px;
 }
+
+/* Dropbox business company */
+.bus-comp {
+    background-color: #b4d0e7;
+    padding: 130px 0px;
+}
+.col-left-comp {
+    width: 40%;
+    float: left;
+    color: #61082b;
+}
+.col-right-comp {
+    width: 60%;
+    float: left;
+    text-align: right;
+}
+.col-right-comp a {
+    background-color: white;
+    color: black;
+    width: 50%;
+    text-align: center;
+}
