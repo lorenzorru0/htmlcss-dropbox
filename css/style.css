@@ -54,6 +54,18 @@ ul {
 .col-30 {
     width: 30%;
 }
+.bus-col {
+    width: calc((100% - 100px) / 3);
+}
+.col-66 {
+    width: calc((100% / 3) * 2);
+}
+.col-33 {
+    width: calc(100% / 3);
+}
+.border {
+    border: 1px solid #D0D0D3;
+}
 
 /* Typo */
 body {
@@ -143,14 +155,9 @@ header img {
 }
 .column {
     margin-bottom: 55px;
-}
-.bus-col {
-    width: calc((100% - 100px) / 3);
-    float: left;
     min-height: 900px;
-    border: 1px solid #D0D0D3;
 }
-.bus-col-center {
+.center {
     margin: 0px 50px;
 }
 .bus-head {
@@ -196,26 +203,17 @@ header img {
 .enterprise {
     width: 100%;
     margin-bottom: 150px;
-    border: 1px solid #D0D0D3;
 }
 .ente-bottom {
     padding: 30px;
 }
-.col-left-ente {
-    width: calc((100% / 3) * 2);
-    float: left;
-}
-.col-right-ente {
-    width: calc(100% / 3);
-    float: left;
-}
-.col-right-ente a {
+.col-33 a {
     text-align: center;
     width: 100%;
     position: relative;
     top: 0;
 }
-.col-left-ente h4 {
+.col-66 h4 {
     font-size: 12px;
     padding: 30px 0px 40px 0px;
 }
