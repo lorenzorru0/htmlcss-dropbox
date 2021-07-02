@@ -48,6 +48,12 @@ ul {
 .col-50 {
     width: 50%;
 }
+.col-70 {
+    width: 70%;
+}
+.col-30 {
+    width: 30%;
+}
 
 /* Typo */
 body {
@@ -103,16 +109,7 @@ header img {
     background-color: #b4d0e7;
     font-size: 12px;
 }
-.hero-sec-left {
-    width: 30%;
-    float: left;
-}
-.hero-sec-right {
-    width: 70%;
-    float: left;
-    text-align: right;
-}
-.hero-sec-right img {
+.col-70 img {
     width: 100%;
     margin-right: -20px;
 }
@@ -120,18 +117,18 @@ header img {
     position: relative;
     top: 50px;
 }
-.hero-sec-left p{
+.col-30 p{
     padding-bottom: 30px;
 }
-.hero-sec-left > div {
+.col-30 > div {
     font-size: 10px;
     padding: 15px 0px 45px 0px;
 }
-.hero-sec-left i {
+.col-30 i {
     font-size: 35px;
      color: black;
 }
-.hero-sec-left a {
+.col-30 a {
     display: inline-block;
 }
 
