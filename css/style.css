@@ -136,6 +136,7 @@ header li a {
 
 /* Dropbox business section */
 .radio-invoice label {
+    margin-left: 5px;
     margin-right: 20px;
 }
 .radio-invoice {
@@ -463,4 +464,7 @@ header li a:hover {
 }
 footer a:hover {
     color: #0061ff;
+}
+.radio-invoice input:hover {
+    transform: scale(1.5);
 }
