@@ -149,7 +149,7 @@ header li a {
     width: calc((100% - 100px) / 3);
     float: left;
     min-height: 900px;
-    border: 1px solid black;
+    border: 1px solid #D0D0D3;
 }
 .bus-col-center {
     margin: 0px 50px;
@@ -157,7 +157,7 @@ header li a {
 .bus-head {
     text-align: center;
     padding: 10px 0px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #D0D0D3;
 }
 .bus-main {
     padding: 40px 20px;
@@ -197,7 +197,7 @@ header li a {
 .enterprise {
     width: 100%;
     margin-bottom: 150px;
-    border: 1px solid black;
+    border: 1px solid #D0D0D3;
 }
 .ente-bottom {
     padding: 30px;
