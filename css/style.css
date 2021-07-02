@@ -45,35 +45,43 @@ ul {
 .text-right {
     text-align: right;
 }
-.col-50 {
-    width: 50%;
-}
-.col-70 {
-    width: 70%;
-}
-.col-30 {
-    width: 30%;
-}
 .bus-col {
     width: calc((100% - 100px) / 3);
 }
 .center {
     margin: 0px 50px;
 }
-.col-66 {
-    width: calc((100% / 3) * 2);
-}
-.col-33 {
-    width: calc(100% / 3);
-}
-.col-55 {
-    width: 55%;
-}
-.col-45 {
-    width: 45%;
-}
 .border {
     border: 1px solid #D0D0D3;
+}
+
+/* Width */
+.w-50 {
+    width: 50%;
+}
+.w-70 {
+    width: 70%;
+}
+.w-30 {
+    width: 30%;
+}
+.w-66 {
+    width: calc((100% / 3) * 2);
+}
+.w-33 {
+    width: calc(100% / 3);
+}
+.w-55 {
+    width: 55%;
+}
+.w-45 {
+    width: 45%;
+}
+.w-40 {
+    width: 40%;
+}
+.w-100 {
+    width: 100%;
 }
 
 /* Typo */
@@ -130,7 +138,7 @@ header img {
     background-color: #b4d0e7;
     font-size: 12px;
 }
-.col-70 img {
+.hero .w-70 img {
     width: 100%;
     margin-right: -20px;
 }
@@ -138,18 +146,18 @@ header img {
     position: relative;
     top: 50px;
 }
-.col-30 p{
+.hero-sec .w-30 p{
     padding-bottom: 30px;
 }
-.col-30 > div {
+.hero-sec .w-30 > div {
     font-size: 10px;
     padding: 15px 0px 45px 0px;
 }
-.col-30 i {
+.hero-sec .w-30 i {
     font-size: 35px;
      color: black;
 }
-.col-30 a {
+.hero-sec .w-30 a {
     display: inline-block;
 }
 
@@ -164,6 +172,8 @@ header img {
 }
 .column {
     margin-bottom: 55px;
+}
+.column .bus-col {
     min-height: 900px;
 }
 .bus-head {
@@ -213,13 +223,13 @@ header img {
 .ente-bottom {
     padding: 30px;
 }
-.col-33 a {
+.ente-bottom .w-33 a {
     text-align: center;
     width: 100%;
     position: relative;
     top: 0;
 }
-.col-66 h4 {
+.ente-bottom .w-66 h4 {
     font-size: 12px;
     padding: 30px 0px 40px 0px;
 }
@@ -228,18 +238,18 @@ header img {
 .part-sec {
     margin-bottom: 100px;
 }
-.part-sec .col-45 {
+.part-sec .w-45 {
     padding: 40px 0px 0px 40px;
 }
-.col-55 img{
+.part-sec .w-55 img{
     width: 100%;
 }
-.col-45 p {
+.part-sec .w-45 p {
     line-height: 2;
     padding-top: 40px;
     padding-bottom: 25px;
 }
-.col-45 .btn {
+.part-sec .w-45 .btn {
     color: black;
     background-color: white;
     border: 1px solid black;
@@ -259,41 +269,14 @@ header img {
     margin: 120px 0px 210px 0px;
 }
 
-/* Dropbox business team */
-.title-team {
-    width: 50%;
-}
+/* Dropbox business team section */
 .title-team a {
     display: inline-block;
     padding: 45px 0px;
     color: #0061ff;
 }
 .bus-team {
-    height: auto;
     background-color: #f5f5f5;
-}
-.small-col-team {
-    width: 30%;
-    float: left;
-}
-.big-col-team {
-    width: 40%;
-    height: 100%;
-    float: left;
-}
-.first-row,
-.second-row {
-    width: 100%;
-}
-.first-row > div,
-.second-row > div {
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-.big-col-team div{
-    width: 100%;
-    height: 100%;
 }
 .back-green {
     background-color: #a2d39b;
@@ -320,9 +303,6 @@ header img {
 .back-yellow {
     background-color: #ffd830;
 }
-.back-green img {
-    color: white;
-}
 .back-green,
 .back-blue,
 .back-darkred,
@@ -339,27 +319,26 @@ header img {
   display: block;
   padding-bottom: 100%;
 }
-.small-col-team img {
+.bus-team .w-30 img {
     width: 100%;
 }
-
-.back-big-col {
+.bus-team .w-40 {
     padding: 50px;
     height: 100%;
 }
-.back-big-col img {
+.bus-team .w-40 img {
     height: 50px;
 }
-.back-big-col hr {
+.bus-team .w-40 hr {
     color: #e6e6e7;
     width: 15%;
     margin-top: 30px;
 }
-.back-big-col p {
+.bus-team .w-40 p {
     padding-top: 50px;
 }
 
-/* Dropbox business company */
+/* Dropbox business company section */
 .bus-comp {
     background-color: #b4d0e7;
     padding: 130px 0px;
@@ -381,7 +360,7 @@ header img {
     text-align: center;
 }
 
-/* FAQ */
+/* FAQ section */
 .faq .small-container {
     padding: 130px 0px;
 }
