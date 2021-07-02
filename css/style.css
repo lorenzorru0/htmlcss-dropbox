@@ -82,9 +82,10 @@ header {
 .head-nav li {
     display: inline-block;
     vertical-align: middle;
+    padding: 0px 10px;
 }
 header li a {
-    padding: 20px 20px;
+    padding: 10px 10px;
     color: black;
 }
 .col-left img {
@@ -126,7 +127,12 @@ header li a {
 }
 .hero-sec-left i {
     font-size: 35px;
+     color: black;
 }
+.hero-sec-left a {
+    display: inline-block;
+}
+
 
 /* Dropbox business section */
 .radio-invoice label {
@@ -441,4 +447,20 @@ footer {
 }
 .fa-globe-americas {
     font-size: 15px;
+}
+
+/* Effetti hover */
+header li a:hover {
+    background-color: #0061ff;
+    border-radius: 20px;
+}
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px black;
+}
+.hero-sec-left i:hover {
+    font-size: 40px;
+}
+footer a:hover {
+    color: #0061ff;
 }
