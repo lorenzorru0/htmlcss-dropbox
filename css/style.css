@@ -57,6 +57,9 @@ ul {
 .bus-col {
     width: calc((100% - 100px) / 3);
 }
+.center {
+    margin: 0px 50px;
+}
 .col-66 {
     width: calc((100% / 3) * 2);
 }
@@ -163,9 +166,6 @@ header img {
     margin-bottom: 55px;
     min-height: 900px;
 }
-.center {
-    margin: 0px 50px;
-}
 .bus-head {
     text-align: center;
     padding: 10px 0px;
@@ -249,14 +249,10 @@ header img {
 .bus-sec-plus h2 {
     padding-bottom: 100px;
 }
-.col-bus-plus {
-    width: calc((100% - 100px) / 3);
-    float: left;
-}
-.col-bus-plus img {
+.bus-col img {
     width: 100%;
 }
-.col-bus-plus p {
+.bus-col p {
     padding-top: 40px;
 }
 .second-row-bus {
