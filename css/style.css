@@ -141,7 +141,7 @@ header li a {
 .bus-col {
     width: calc((100% - 100px) / 3);
     float: left;
-    min-height: 1100px;
+    min-height: 900px;
     border: 1px solid black;
 }
 .bus-col-center {
