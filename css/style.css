@@ -452,7 +452,7 @@ footer {
 
 /* Effetti hover */
 header li a:hover {
-    background-color: #0061ff;
+    background-color: #b4d0e7;
     border-radius: 20px;
 }
 .btn:hover {
@@ -463,7 +463,7 @@ header li a:hover {
     font-size: 40px;
 }
 footer a:hover {
-    color: #0061ff;
+    color: #b4d0e7;
 }
 .radio-invoice input:hover {
     transform: scale(1.5);
