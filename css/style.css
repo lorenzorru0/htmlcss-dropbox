@@ -80,6 +80,9 @@ ul {
 .w-40 {
     width: 40%;
 }
+.w-60 {
+    width: 60%;
+}
 .w-100 {
     width: 100%;
 }
@@ -343,17 +346,10 @@ header img {
     background-color: #b4d0e7;
     padding: 130px 0px;
 }
-.col-left-comp {
-    width: 40%;
-    float: left;
+.bus-comp .w-40 h2 {
     color: #61082b;
 }
-.col-right-comp {
-    width: 60%;
-    float: left;
-    text-align: right;
-}
-.col-right-comp a {
+.bus-comp .w-60 a {
     background-color: white;
     color: black;
     width: 50%;
@@ -366,15 +362,6 @@ header img {
 }
 .faq h2 {
     padding-bottom: 55px;
-}
-.col-left-faq {
-    width: 70%;
-    float: left;
-}
-.col-right-faq {
-    width: 30%;
-    float: left;
-    text-align: right;
 }
 .faq p {
     font-weight: 700;
