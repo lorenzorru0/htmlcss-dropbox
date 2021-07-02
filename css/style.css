@@ -14,7 +14,7 @@
 nav a {
     text-decoration: none;
 }
-nav ul {
+ul {
     list-style: none;
 }
 .btn {
@@ -178,9 +178,6 @@ header li a {
 .bus-underlined {
     display: inline-block;
     border-bottom: 1px solid #d0d0d3;
-}
-.bus-main ul {
-    list-style: none;
 }
 .bus-main li {
     padding-bottom: 15px;
@@ -403,9 +400,6 @@ header li a {
 .faq p {
     font-weight: 700;
 }
-.faq ul {
-    list-style: none;
-}
 .faq li {
     padding: 35px 0px;
     border-bottom: 2px solid #dcdcde;
@@ -420,3 +414,31 @@ header li a {
 }
 
 /* Footer */
+footer {
+    background-color: black;
+    padding-top: 100px;
+}
+.col-footer {
+    width: 20%;
+    float: left;
+    color: white;
+}
+.col-footer ul {
+    padding: 25px 0px 100px 0px;
+}
+.col-footer li {
+    padding-bottom: 13px;
+}
+.col-footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer-bottom {
+    width: 10%;
+    padding: 50px 0px 40px 0px;
+    color: #999999;
+    border-top: 1px solid #999999;
+}
+.fa-globe-americas {
+    font-size: 15px;
+}
