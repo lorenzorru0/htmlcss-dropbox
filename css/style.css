@@ -45,15 +45,6 @@ ul {
 .text-right {
     text-align: right;
 }
-.bus-col {
-    width: calc((100% - 10%) / 3);
-}
-.center {
-    margin: 0% 5%;
-}
-.border {
-    border: 1px solid #D0D0D3;
-}
 
 /* Width */
 .w-50 {
@@ -181,6 +172,15 @@ header img {
 }
 .column .bus-col {
     min-height: 900px;
+}
+.bus-col {
+    width: calc((100% - 10%) / 3);
+}
+.center {
+    margin: 0% 5%;
+}
+.border {
+    border: 1px solid #D0D0D3;
 }
 .bus-head {
     text-align: center;
