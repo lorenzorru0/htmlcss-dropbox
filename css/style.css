@@ -320,9 +320,9 @@ header img {
     text-align: center;
 }
 .square:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
+    content: "";
+    display: block;
+    padding-bottom: 100%;
 }
 .bus-team .w-30 img {
     width: 100%;
@@ -379,6 +379,16 @@ header img {
     padding-right: 40px;
     font-size: 20px;
     color: black;
+}
+.faq__text-hover {
+    padding-top: 20px;
+    color: #637381;
+    display: none;
+}
+.faq__text-hover a {
+    font-size: 12px;
+    padding-right: 0;
+    color: #637381;
 }
 
 /* Footer */
@@ -450,4 +460,7 @@ footer a:hover {
 }
 .bus-team-sec .back-yellow:hover {
     border: 10px solid #fde472;
+}
+.li-hover:hover + .faq__text-hover {
+    display: block;
 }
