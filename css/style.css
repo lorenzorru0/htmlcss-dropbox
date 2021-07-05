@@ -371,6 +371,7 @@ header img {
 .faq li {
     padding: 35px 0px;
     border-bottom: 2px solid #dcdcde;
+    position: relative;
 }
 .faq li:first-child {
     border-top: 2px solid #dcdcde;
@@ -389,6 +390,17 @@ header img {
     font-size: 12px;
     padding-right: 0;
     color: #637381;
+}
+.fa-angle-down {
+    position: absolute;
+    right: 40px;
+    top: 35px;
+}
+.fa-angle-up {
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    display: none;
 }
 
 /* Footer */
@@ -461,6 +473,12 @@ footer a:hover {
 .bus-team-sec .back-yellow:hover {
     border: 10px solid #fde472;
 }
-.li-hover:hover + .faq__text-hover {
+.li-hover:hover .faq__text-hover {
+    display: block;
+}
+.li-hover:hover .fa-angle-down{
+    display: none;
+}
+.li-hover:hover .fa-angle-up{
     display: block;
 }
