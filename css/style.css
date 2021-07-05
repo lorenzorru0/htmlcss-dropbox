@@ -286,7 +286,6 @@ header img {
 }
 .back-green {
     background-color: #a2d39b;
-    border: 10px solid #d0e9cd;
 }
 .back-blue {
     background-color: #0093ce;
@@ -427,4 +426,28 @@ footer a:hover {
 }
 .radio-invoice input:hover {
     transform: scale(1.5);
+}
+.bus-team-sec .back-green:hover {
+    border: 10px solid #b9e9b4;
+}
+.bus-team-sec .back-darkred:hover {
+    border: 10px solid #851340;
+}
+.bus-team-sec .back-blue:hover {
+    border: 10px solid #43b2df;
+}
+.bus-team-sec .back-lightred:hover {
+    border: 10px solid #ff5f5f;
+}
+.bus-team-sec .back-red:hover {
+    border: 10px solid #d84b60;
+}
+.bus-team-sec .back-darkblue:hover {
+    border: 10px solid #263c91;
+}
+.bus-team-sec .back-lightblue:hover {
+    border: 10px solid #bed2e2;
+}
+.bus-team-sec .back-yellow:hover {
+    border: 10px solid #fde472;
 }
